@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data and model artifacts (document download steps instead)
+data/raw/
+data/private/
+*.parquet
+*.pt
+*.pth
+*.bin
+*.safetensors
